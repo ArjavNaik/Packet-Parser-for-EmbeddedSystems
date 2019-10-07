@@ -4,8 +4,6 @@ As per requirements, deserialization of buffer data from external file is done a
 
 Additionally, serialization of the populated packet is done and stored in a packet buffer.
 
-Serialization and Deserialization function and are included in the src folder.
-
 The main.h file is included in the inc folder. 
 
 Unit testing has been done using CUnit testing framework to confirm the functionality.
@@ -30,6 +28,3 @@ To run UnitTest:
 
 To clean unit test executable:
 > make uclean
-
-
- 
