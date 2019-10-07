@@ -32,8 +32,4 @@ To clean unit test executable:
 > make uclean
 
 
-Functionality which are remaining:-
-1) Reading the raw packet buffer data from the file is not complete. I was only able to load one raw packet buffer from the txt file.
-The file reading was done using fgets. Even fscanf function was used to read multiple raw packet buffer and I tried to detect EOF but it was
-not giving the correct results.
-2) Unit testing which is done is using Cunit instead using pyhton. 
+ 
